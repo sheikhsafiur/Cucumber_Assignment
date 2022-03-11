@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="97.290341">
+<testcase classname="Categories" name="Add New" time="13.483453">
+<system-out><![CDATA[Given User is on the site...................................................passed
+When User enters username and password......................................passed
+And Clicks on login.........................................................passed
+And Clicks on catalog and categories........................................passed
+Then User is navigated to the categories page...............................passed
+Given User clicks on add new................................................passed
+And User is on the Add Category Page........................................passed
+When User enters "Deo" "Deo"................................................passed
+And Click on save...........................................................passed
+Then Success message is displayed and new category is verified..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Categories" name="Edit" time="12.430826">
+<system-out><![CDATA[Given User is on the site...................................................passed
+When User enters username and password......................................passed
+And Clicks on login.........................................................passed
+And Clicks on catalog and categories........................................passed
+Then User is navigated to the categories page...............................passed
+Given User clicks on the edit logo..........................................passed
+And edits the "Books" "Books"...............................................passed
+When Click on save..........................................................passed
+Then Success message is displayed and edit is verified......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Categories" name="Delete" time="17.819795">
+<system-out><![CDATA[Given User is on the site...................................................passed
+When User enters username and password......................................passed
+And Clicks on login.........................................................passed
+And Clicks on catalog and categories........................................passed
+Then User is navigated to the categories page...............................passed
+Given User selects checkbox.................................................passed
+When User clicks on delete and confirms.....................................passed
+Then Validation message is displayed and delete is confirmed................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add New Manufacturer" name="Add New" time="12.026659">
+<system-out><![CDATA[Given User is on the site...................................................passed
+When User enters username and password......................................passed
+And Clicks on login.........................................................passed
+And Clicks on catalog and manufacturers.....................................passed
+Then User is navigated to the manufacturers page............................passed
+Given user clicks on the add new button.....................................passed
+And User is on the Add Manufacturer page....................................passed
+When User enters "MI" "https://www.mi.com/case-stud5y/xaomi-o" "84".........passed
+And Clicks on save button...................................................passed
+Then Success message is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add New Manufacturer" name="Edit" time="13.659279">
+<system-out><![CDATA[Given User is on the site...................................................passed
+When User enters username and password......................................passed
+And Clicks on login.........................................................passed
+And Clicks on catalog and manufacturers.....................................passed
+Then User is navigated to the manufacturers page............................passed
+Given User clicks  on the edit button.......................................passed
+When User edits the information "Apple" "https://www.apple.com/case-study/apple-s31e1521o" "14".passed
+And Clicks on save button...................................................passed
+Then Success message is displayed and edit is confirmed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add New Manufacturer" name="Delete" time="27.870329">
+<system-out><![CDATA[Given User is on the site...................................................passed
+When User enters username and password......................................passed
+And Clicks on login.........................................................passed
+And Clicks on catalog and manufacturers.....................................passed
+Then User is navigated to the manufacturers page............................passed
+Given User selects one or multiple checkbox.................................passed
+When User Clicks on the delete button and confirms..........................passed
+Then Success message is displayed and delete is confirmed...................passed
+]]></system-out>
+</testcase>
+</testsuite>
